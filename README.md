@@ -2,7 +2,14 @@
 
 ---
 
-Esp_Readme.pdf为彩色，阅读起来更舒服
+### 支持功能
+
+-   ATK-ESP8266的大部分AT指令与基本功能
+-   Get from API specific(可根据示例DIY)
+
+-   使用WiFi链表实现选择最强的WiFi进行自动连接
+
+
 
 ### 测试结果
 
@@ -10,7 +17,6 @@ Esp_Readme.pdf为彩色，阅读起来更舒服
 
 ### 使用说明
 
-*   关于WiFi链表的使用，见main.c
 *   请认真阅读源码
 *   文章参考以及其他资源请见[正点原子_WIFI模块ATK-ESP8266](http://47.111.11.73/docs/modules/iot/atk-esp.html) 及 [ESP官网](https://docs.espressif.com/projects/esp-at/zh_CN/latest/esp32/AT_Command_Set/index.html)
     *   [CSDN](http://t.csdnimg.cn/JFc19)关于一些API的获取
@@ -124,6 +130,7 @@ Esp_Readme.pdf为彩色，阅读起来更舒服
     *   断开与当前AP(WiFi)的连接`AT+CWQAP`
     *   查看可用的WiFi` AT+CWLAP`
     *   连接到WiFi` AT+CWJAP="ssid","password"`
+
 
 
 
