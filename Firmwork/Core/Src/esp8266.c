@@ -34,8 +34,9 @@ WeatherInfo RealWeather = {0, 0, 0};
 // ESP_Mode Esp_Mode = Esp_Client; // 工作在TCP CLient 下
 ESP_Mode Esp_Mode = Esp_YuanZiYun; // 工作在原子云服务器下
 
-char *YuanZiYun_ID = "00982247993262452861";
-char *YuanZiYun_PWD = "12345678";
+// 请填写自己的原子云设备编号与密码
+char *YuanZiYun_ID = "";
+char *YuanZiYun_PWD = "";
 
 uint8_t IP[15];
 
